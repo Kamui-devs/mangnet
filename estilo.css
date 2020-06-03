@@ -1,0 +1,25 @@
+#cabecalho{
+	background-color:#87CEEB;
+	width: 1345px;
+	height: 90px;
+}
+#principal{
+	width: 1345px;
+	background-color: #6959CD;
+	height: 633px;
+}
+#carrosel{
+	width: 1345px;
+	background-color: #ADD8E6;
+	height: 400px;	
+}
+#logomarca{
+	width: 400px;
+	height: 90px;
+	background-color: #4169E1;
+}
+nav#menu{
+	position: absolute;
+	left: 900px;
+	top: 10px;
+}
