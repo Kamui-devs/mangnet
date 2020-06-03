@@ -1,25 +1,54 @@
-#cabecalho{
+/* Cabeçalho */
+div#cabecalho{
+	display: block;
+	position: fixed;
 	background-color:#87CEEB;
 	width: 1345px;
 	height: 90px;
 }
+/* Cdiv principal */
 #principal{
 	width: 1345px;
 	background-color: #6959CD;
 	height: 633px;
 }
+/* Div do carrossel */
 #carrosel{
 	width: 1345px;
-	background-color: #ADD8E6;
-	height: 400px;	
+	background-color: #ADD8E6;	
 }
+/* Logomarca */
 #logomarca{
 	width: 400px;
 	height: 90px;
 	background-color: #4169E1;
 }
+/* Menu */
 nav#menu{
+	display: block;
 	position: absolute;
-	left: 900px;
+	left: 850px;
 	top: 10px;
+}
+nav#menu ul{
+	list-style: none;
+}
+nav#menu li{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav#menu a{
+	text-decoration: none;
+}
+nav#menu a:hover{
+	text-decoration: underline;
+	color: red;
+}
+/* Rodapé */
+footer#rodape{
+	clear: both;
+	text-align: center;
+}
+footer#rodape a{
+	text-decoration: none;
 }
