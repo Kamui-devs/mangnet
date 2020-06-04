@@ -1,30 +1,26 @@
+/* div principal */
+div#principal{
+	background-color:white;
+}
 /* Cabeçalho */
 div#cabecalho{
 	display: block;
 	position: fixed;
 	background-color:#F8F8FF;
-	width: 1325px;
+	width: 100%;
 	height: 100px;
 	margin-top: -0.5em;
 	z-index: 2;
 }
-/* Cdiv principal */
-#principal{
-	width: 1325px;
-	background-color:white;
-}
-/* Div do carrossel */
-#carrosel{
-}
 /* Logomarca */
-#logomarca{
+div#logomarca{
 	width: 400px;
 	height: 90px;
 	background-color:#F8F8FF;
 }
-#logomarca img{
+div#logomarca img{
 	width: 530px;
-	position: absolute;
+	position: relative;
 	top:-8px;
 	left: -37px;
 }
@@ -54,29 +50,40 @@ nav#menu a:hover{
 	text-decoration: none;
 	color: #0FA3B1;
 }
-.retangulo{
-position: absolute;
-width: 1458px;
-height: 264px;
-left: -7px;
-top: 896px;
-background: rgba(196, 196, 196, 0.3);
+/* Seções */
+section{
+	display: block;
+	position: relative;
 }
-/* Rodapé */
-footer#rodape{
-	clear: both;
-	text-align: center;
+/*Imagens*/
+figure.e img{
+	width: 500px;
+	position: absolute;
+	left:765px;
+	top:376px;
+	height:322px;
 }
-footer#rodape a{
-	text-decoration: none;
+figure.d img{
+	width: 500px;
+	position: absolute;
+	left:114px;
+	top:806px;
+	height: 322px;
 }
-footer#rodape img{
-	width: 60px;
-}
-/*Noticias*/
-
 /*textos*/
-h1{
+article.texto1{
+	display: block;
+	position: absolute;
+	left: 57px;
+	top: 418px;
+}
+article.texto2{
+	display: block;
+	position: absolute;
+	left: 887px;
+	top: 809px;
+}
+article h1{
 	font-family: 'Hind', sans-serif;
 	color:#0FA3B1;
 	font-size: 40px;
@@ -86,28 +93,15 @@ article p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
 }
-.texto1{
-	position: absolute;
-	left: 57px;
-	top: 418px;
+/* Rodapé */
+footer#rodape{
+	clear: both;
+	background-color: red;
+	text-align: center;
 }
-.texto2{
-	position: absolute;
-	left: 887px;
-	top: 809px;
+footer#rodape a{
+	text-decoration: none;
 }
-/*Imagens*/
-section.direita img{
-	width: 500px;
-	position: absolute;
-	left:765px;
-	top:376px;
-	height:322px;
-}
-section.esquerda img{
-	width: 500px;
-	position: absolute;
-	left:114px;
-	top:806px;
-	height: 322px;
+footer#rodape img{
+	width: 60px;
 }
