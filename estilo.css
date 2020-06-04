@@ -93,15 +93,3 @@ article p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
 }
-/* Rodapé */
-footer#rodape{
-	clear: both;
-	background-color: red;
-	text-align: center;
-}
-footer#rodape a{
-	text-decoration: none;
-}
-footer#rodape img{
-	width: 60px;
-}
