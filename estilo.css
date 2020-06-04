@@ -5,23 +5,28 @@ div#cabecalho{
 	background-color:#F8F8FF;
 	width: 1325px;
 	height: 100px;
+	margin-top: -0.5em;
+	z-index: 2;
 }
 /* Cdiv principal */
 #principal{
 	width: 1325px;
-	background-color: #6959CD;
-	height: 633px;
+	background-color:white;
 }
 /* Div do carrossel */
 #carrosel{
-	width: 1325px;
-	background-color: #ADD8E6;	
 }
 /* Logomarca */
 #logomarca{
 	width: 400px;
 	height: 90px;
 	background-color:#F8F8FF;
+}
+#logomarca img{
+	width: 530px;
+	position: absolute;
+	top:-8px;
+	left: -37px;
 }
 /* Menu */
 nav#menu{
@@ -49,6 +54,14 @@ nav#menu a:hover{
 	text-decoration: none;
 	color: #0FA3B1;
 }
+.retangulo{
+position: absolute;
+width: 1458px;
+height: 264px;
+left: -7px;
+top: 896px;
+background: rgba(196, 196, 196, 0.3);
+}
 /* Rodapé */
 footer#rodape{
 	clear: both;
@@ -57,9 +70,44 @@ footer#rodape{
 footer#rodape a{
 	text-decoration: none;
 }
-#logomarca img{
-	width: 530px;
+footer#rodape img{
+	width: 60px;
+}
+/*Noticias*/
+
+/*textos*/
+h1{
+	font-family: 'Hind', sans-serif;
+	color:#0FA3B1;
+	font-size: 40px;
+}
+article p{
+	color:#A6A6A6; 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+}
+.texto1{
 	position: absolute;
-	top:-8px;
-	left: -37px;
+	left: 57px;
+	top: 418px;
+}
+.texto2{
+	position: absolute;
+	left: 887px;
+	top: 809px;
+}
+/*Imagens*/
+section.direita img{
+	width: 500px;
+	position: absolute;
+	left:765px;
+	top:376px;
+	height:322px;
+}
+section.esquerda img{
+	width: 500px;
+	position: absolute;
+	left:114px;
+	top:806px;
+	height: 322px;
 }
