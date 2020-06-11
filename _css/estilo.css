@@ -55,7 +55,30 @@ section{
 	display: block;
 	position: relative;
 }
-
+figure.e img{
+	width: 40%;
+	float: left;
+}
+figure.d img{
+	width: 40%;
+	float: right;
+}
+h1{
+	font-family: 'Hind', sans-serif;
+	color:#0FA3B1;
+	font-size: 40px;
+}
+article p{
+	color:#A6A6A6; 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 25px;
+}
+aside.texto1{
+	float: right;
+}
+aside.texto2{
+	float: right;
+}
 /* Rodapé */
 footer#rodape{
 	clear: both;

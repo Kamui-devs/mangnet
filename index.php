@@ -30,13 +30,15 @@
 					<h1>Agora estamos com fibra Óptica</h1>
 					<p>30 mb de internet da Embratel</p>
 				</aside>
-			</article class="direita">
+			</article>
+			<article class="direita">
 			<figure class="d"><img src="_fotos/f4.png"></figure>
 			<aside class="texto2">
-				<h1>Visite nossa loja off</h1>
+				<h1>Visite nossa loja </h1>
 				<p>Variedade em produtos eletrônicos</p>
 				<p>localizada em S.R. das Mangabeiras-MA</p>
 			</aside>
+			</article>
 		</section>
 		<footer id="rodape">
 			<p>&copy;Kamui Devs - 2020</p>
