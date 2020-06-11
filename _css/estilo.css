@@ -3,6 +3,11 @@
 div#main{
 	background-color: white;
 }
+div.solida{
+	display: block;
+	position: absolute;
+	height: 100px;
+}
 /* Cabeçalho */
 header#cabecalho{
 	display: block;
@@ -55,6 +60,15 @@ section{
 	display: block;
 	position: relative;
 }
+/* Carousel */
+div.carousel{
+    width: 1000px;
+    height: 500px;
+ }
+  div.carousel img.d-block{
+    width: 600px;
+    height: 400px;
+ }
 figure.e img{
 	width: 40%;
 	float: left;
