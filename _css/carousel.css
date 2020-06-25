@@ -88,3 +88,9 @@ body {
     margin-top: 7rem;
   }
 }
+div.col-md-7{
+  padding-left: 43px;
+}
+div.col-md-5.order-md-1{
+  padding-left: 30px;
+}
